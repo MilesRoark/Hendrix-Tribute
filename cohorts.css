@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", sans-serif;
+  background-color: blanchedalmond;
+}
+
+header {
+  position: absolute;
+  top: 0;
+}
+
+header img {
+  width: 100vw;
+}
+
+header h1 {
+  text-align: center;
+  margin-top: -0.5rem;
+}
+
+.family {
+  position: relative;
+  top: 10rem;
+  left: 1rem;
+}
+
+hr {
+  width: 12rem;
+  margin-left: -0.01rem;
+  margin-top: -1rem;
+  height: 0.1rem;
+  background-color: orange;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.02rem;
+}
+
+h4 {
+  margin-left: 2rem;
+}
+
+ul {
+  margin-left: 2rem;
+}
+
+ul p {
+  margin-top: -0.4rem;
+  margin-left: 1rem;
+}
+
+.father,
+.mother,
+.brother {
+  font-weight: 800;
+  margin-left: 0.1rem;
+}
+
+figure {
+  margin-left: 35rem;
+  margin-top: -8rem;
+}
+
+figure img {
+  width: 8rem;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 15rem;
+}
+
+.siblings figure {
+  margin-top: -6rem;
+}
+
+@media (max-width: 68.125em) {
+  ul figure {
+    display: none;
+  }
+  header img {
+    width: 150vw;
+  }
+}

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", sans-serif;
+  background-color: blanchedalmond;
+}
+
+header img {
+  width: 100vw;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: -5px;
+}
+
+.chord h2 {
+  margin-left: 20px;
+}
+
+hr {
+  width: 300px;
+  margin-left: 20px;
+  margin-top: -20px;
+  box-shadow: 4px 4px 4px 1px;
+}
+
+.guitar h1,
+.amps h1,
+.pedals h1 {
+  margin-left: 20px;
+  color: rgb(5, 124, 9);
+}
+
+.chord p {
+  margin-left: 20px;
+  margin-right: 800px;
+  font-size: 18px;
+}
+
+.chord img {
+  margin-left: 700px;
+  margin-top: -150px;
+}
+
+.gear ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 0;
+}
+
+.gear img {
+  width: 150px;
+  height: 200px;
+  margin-left: 150px;
+}
+
+.gear p {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.gear li {
+  margin-left: 25px;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+@media (max-width: 68.125em) {
+  .chord img {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .chord p {
+    margin-right: 4rem;
+  }
+  header img {
+    border: 2px solid red;
+    width: 210vw;
+  }
+}
